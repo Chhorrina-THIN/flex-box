@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* write your style */
+.header{
+    background-color: rgb(66, 66, 66);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    display: flex;
+}
+.sidebar{
+    flex: 1;
+    background-color: gray;
+    padding: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 3;
+    background-color: darkgray;
+}
+.card{
+    background-color: #fff;
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.footer{
+    background-color: rgb(66, 66, 66);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
